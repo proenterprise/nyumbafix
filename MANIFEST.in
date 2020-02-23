@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nyumbafix *.css
+recursive-include nyumbafix *.csv
+recursive-include nyumbafix *.html
+recursive-include nyumbafix *.ico
+recursive-include nyumbafix *.js
+recursive-include nyumbafix *.json
+recursive-include nyumbafix *.md
+recursive-include nyumbafix *.png
+recursive-include nyumbafix *.py
+recursive-include nyumbafix *.svg
+recursive-include nyumbafix *.txt
+recursive-exclude nyumbafix *.pyc
